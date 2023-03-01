@@ -17,6 +17,7 @@ p {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 50px;            /* margins behave similar like padding and border */
 }
 
     /* 
