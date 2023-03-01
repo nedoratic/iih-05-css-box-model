@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The code snippet above resets the browser default styling behavior. It is considered as a god practice in modern web development. */
+
 body {
     text-align: center;
 }
