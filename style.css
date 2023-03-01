@@ -1,7 +1,36 @@
 h1, p {
     background-color: #DDE0E3;    /* Light gray */
 }
-  
+
+h1 {
+    padding: 50px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    /* 
+    The rule above can be written like:
+
+        p {
+            padding: 20px 10px;
+        }
+
+    Here the first value is for `Vertical padding` and the second value is for `Horizontal padding`.
+
+    or like:
+
+        p {
+            padding: 20px 0 20px 10px;
+        }
+
+    Here the values are from left to right for `Top padding`, `Right padding`, `Bottom padding` and `Left padding`.
+    */
+
 em, strong {
     background-color: #B2D6FF;    /* Light blue */
     display: inline;                /* This is the default display value for em and strong elements */
