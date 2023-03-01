@@ -4,7 +4,13 @@ h1, p {
 
 h1 {
     padding: 50px;
+    border: 1px solid #5D6063;    /* border: size, type, color */
 }
+
+    /*
+    Borders can be applied selectively same as padding.
+    border-top, border-right, border-bottom, and border-left.
+    */
 
 p {
     padding-top: 20px;
