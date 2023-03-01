@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 h1, p {
     background-color: #DDE0E3;    /* Light gray */
 }
@@ -55,4 +59,6 @@ div {
     padding: 20px;
     border: 2px solid #5D6063;
     border-radius: 5px;
+
+    margin: 20px auto;              /* This centers the div in the middle. First value = 20px = vertical. Second value = auto = horizontal. */
 }
